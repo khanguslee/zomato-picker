@@ -1,3 +1,5 @@
 .HeaderContainer {
   margin: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 0.3em solid #e23744;
 }
