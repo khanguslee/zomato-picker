@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "./components/Header";
-import { Input } from "semantic-ui-react";
+import SearchBar from "./components/SearchBar";
 
 import "semantic-ui-css/semantic.min.css";
 import "./App.css";
@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div>
-        <Input icon="search" placeholder="Search..." />
-      </div>
+      <SearchBar />
     </div>
   );
 }
